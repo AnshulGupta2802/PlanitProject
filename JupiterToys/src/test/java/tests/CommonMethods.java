@@ -10,7 +10,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -82,15 +81,10 @@ public class CommonMethods {
         try
         {
             driver.findElement(By.xpath(xpath));
-            Reporter.log("<br>");
-            Reporter.log(name+" is Displayed");
             return true;
-
         }
         catch(NoSuchElementException e)
         {
-            Reporter.log("<br>");
-            Reporter.log(name+" is not Displayed");
             return false;
         }
 
@@ -109,6 +103,4 @@ public class CommonMethods {
         }
 
     }
-
-
 }
