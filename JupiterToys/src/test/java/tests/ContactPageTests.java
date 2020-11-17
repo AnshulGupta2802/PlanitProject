@@ -31,10 +31,11 @@ public class ContactPageTests extends CommonMethods {
 
 	@Test(description = "Verify the successful submission of Contact page")
 	public void verifySuccessfulSumbmission() throws InterruptedException {
+		click("homePage_XPATH");
 		click("contactPage_XPATH");
-		input("forename_ID","testforename");
-		input("email_ID","test@email.com");
-		input("message_ID","testMessage");
+		input("forename_ID","ABCD");
+		input("email_ID","ABCD@gmail.com");
+		input("message_ID","testing");
 		click("submitButton_XPATH");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Assert.assertTrue(isDisplayed("//div[@class='alert alert-success']", "Success Message"));
@@ -43,6 +44,7 @@ public class ContactPageTests extends CommonMethods {
 
 	@Test(description = "Verify the errors on entering invalid data in Contact page")
 	public void verifyErrorsOnInvalidData() throws InterruptedException {
+		click("homePage_XPATH");
 		click("contactPage_XPATH");
 		input("forename_ID", "123");
 		input("email_ID", "123");

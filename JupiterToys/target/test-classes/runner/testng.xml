@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Jupiter Toys" thread-count="1">
+	<test name="Jupiter Toys Tests">
+    <classes>
+      <class name="tests.ContactPageTests">
+        <methods>
+            <include name="verifyMandatoryFieldsErrorMessages"/>
+            <include name="verifySuccessfulSumbmission"/>
+            <include name="verifyErrorsOnInvalidData"/>
+        </methods>
+      </class>
+		<class name="tests.ShopPageTests"/>
+    </classes>
+</test>
+</suite>

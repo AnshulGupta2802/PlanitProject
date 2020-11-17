@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Forename error message is displayed successfully is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Email error message is displayed successfully is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Message error message is displayed successfully is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Forename error message is not displayed is not Displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Email error message is not displayed is not Displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Message error message is not displayed is not Displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Success Message is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Error Notification - Header is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Email Error - Alert is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Jupiter Toys" duration-ms="28725" started-at="2020-11-17T11:28:08Z" finished-at="2020-11-17T11:28:37Z">
+    <groups>
+    </groups>
+    <test name="Jupiter Toys Tests" duration-ms="28725" started-at="2020-11-17T11:28:08Z" finished-at="2020-11-17T11:28:37Z">
+      <class name="tests.ContactPageTests">
+        <test-method status="PASS" signature="loadObjectRepository()[pri:0, instance:tests.ContactPageTests@35083305]" name="loadObjectRepository" is-config="true" duration-ms="7" started-at="2020-11-17T11:28:08Z" finished-at="2020-11-17T11:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadObjectRepository -->
+        <test-method status="PASS" signature="initialSetup()[pri:0, instance:tests.ContactPageTests@35083305]" name="initialSetup" is-config="true" duration-ms="7546" started-at="2020-11-17T11:28:08Z" finished-at="2020-11-17T11:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method status="PASS" signature="initialSetup()[pri:0, instance:tests.ShopPageTests@8e0379d]" name="initialSetup" is-config="true" duration-ms="7900" started-at="2020-11-17T11:28:16Z" finished-at="2020-11-17T11:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method status="PASS" signature="verifyMandatoryFieldsErrorMessages()[pri:0, instance:tests.ContactPageTests@35083305]" name="verifyMandatoryFieldsErrorMessages" duration-ms="10671" started-at="2020-11-17T11:28:24Z" description="Verify that mandatory fields error messages are displayed when click on Submit button" finished-at="2020-11-17T11:28:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Forename error message is displayed successfully is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Email error message is displayed successfully is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Message error message is displayed successfully is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Forename error message is not displayed is not Displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Email error message is not displayed is not Displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Message error message is not displayed is not Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldsErrorMessages -->
+        <test-method status="PASS" signature="verifySuccessfulSumbmission()[pri:0, instance:tests.ContactPageTests@35083305]" name="verifySuccessfulSumbmission" duration-ms="1632" started-at="2020-11-17T11:28:34Z" description="Verify the successful submission of Contact page" finished-at="2020-11-17T11:28:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Success Message is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSumbmission -->
+        <test-method status="PASS" signature="verifyErrorsOnInvalidData()[pri:0, instance:tests.ContactPageTests@35083305]" name="verifyErrorsOnInvalidData" duration-ms="240" started-at="2020-11-17T11:28:36Z" description="Verify the errors on entering invalid data in Contact page" finished-at="2020-11-17T11:28:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Error Notification - Header is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Email Error - Alert is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorsOnInvalidData -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ContactPageTests@35083305]" name="closeBrowser" is-config="true" duration-ms="34" started-at="2020-11-17T11:28:37Z" finished-at="2020-11-17T11:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ContactPageTests@35083305]" name="tearDown" is-config="true" duration-ms="575" started-at="2020-11-17T11:28:37Z" finished-at="2020-11-17T11:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactPageTests -->
+      <class name="tests.ShopPageTests">
+        <test-method status="PASS" signature="verifyItemsInShoppingCart()[pri:0, instance:tests.ShopPageTests@8e0379d]" name="verifyItemsInShoppingCart" duration-ms="688" started-at="2020-11-17T11:28:36Z" description="Verify items in shopping cart" finished-at="2020-11-17T11:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsInShoppingCart -->
+      </class> <!-- tests.ShopPageTests -->
+    </test> <!-- Jupiter Toys Tests -->
+  </suite> <!-- Jupiter Toys -->
+</testng-results>

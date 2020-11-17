@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Jupiter Toys]">
+  <test thread-count="1" verbose="0" name="Jupiter Toys Tests(failed)">
+    <classes>
+      <class name="tests.ContactPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySuccessfulSumbmission"/>
+          <include name="initialSetup"/>
+          <include name="closeBrowser"/>
+          <include name="verifyErrorsOnInvalidData"/>
+          <include name="loadObjectRepository"/>
+        </methods>
+      </class> <!-- tests.ContactPageTests -->
+      <class name="tests.ShopPageTests">
+        <methods>
+          <include name="verifyItemsInShoppingCart"/>
+          <include name="tearDown"/>
+          <include name="initialSetup"/>
+          <include name="closeBrowser"/>
+          <include name="loadObjectRepository"/>
+        </methods>
+      </class> <!-- tests.ShopPageTests -->
+    </classes>
+  </test> <!-- Jupiter Toys Tests(failed) -->
+</suite> <!-- Failed suite [Jupiter Toys] -->
